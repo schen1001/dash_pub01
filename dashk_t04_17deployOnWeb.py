@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 import json
 
-from dash import Dash, dash_table, dbc,dcc,html, Input,Output,callback,State,no_update
+from dash import Dash, dash_table, dcc,html, Input,Output,callback,State,no_update
 import geopandas as gpd
 import dash_ag_grid as dag
 import dash_player as player
