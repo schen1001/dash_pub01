@@ -191,7 +191,7 @@ def update_columns(selected_columns):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False, port=8077)
+    app.run_server(debug=True, use_reloader=False)
 
 
 #https://www3.cs.stonybrook.edu/~mueller/teaching/cse332/Dash%20Intro.pdf
