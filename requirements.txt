@@ -4,4 +4,5 @@ dash_ag_grid
 dash_player
 pandas
 geopandas
+openpyxl
 gunicorn
