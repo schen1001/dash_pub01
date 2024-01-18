@@ -1,6 +1,7 @@
 dash==2.14.2
 dash-bootstrap-components==0.13.1
 dash_ag_grid
+dash_player
 pandas
 geopandas
 gunicorn
