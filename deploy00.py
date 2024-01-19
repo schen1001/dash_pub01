@@ -148,7 +148,7 @@ app.layout = dbc.Container([
         html.H4("Dette gjør IMDi"),
         player.DashPlayer(
             id='video-player',
-            url="https://vimeo.com/259845098",  # Replace with the path or URL to your video file
+            url="https://vimeo.com/900763561",  # Replace with the path or URL to your video file
             controls=True,
             width="20%",
             height="150px",
