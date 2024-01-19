@@ -145,7 +145,7 @@ app.layout = dbc.Container([
 
     html.Div(style={'width': '25%' ,  'display': 'inline-block'}, id='my-graph-container'),
     html.Div([
-        html.H4("Dette gjør IMDi"),
+        html.H4("Tilskudd til frivillige organisasjoner"),
         player.DashPlayer(
             id='video-player',
             url="https://vimeo.com/900763561",  # Replace with the path or URL to your video file
