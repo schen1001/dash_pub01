@@ -145,10 +145,10 @@ app.layout = dbc.Container([
 
     html.Div(style={'width': '25%' ,  'display': 'inline-block'}, id='my-graph-container'),
     html.Div([
-        html.H4("Tilskudd til frivillige organisasjoner"),
+        html.H4("Informasjonsmøte: Tilskudd til frivillige organisasjoner"),
         player.DashPlayer(
             id='video-player',
-            url="https://vimeo.com/900763561",  # Replace with the path or URL to your video file
+            url="https://vimeo.com/903675967",  # Replace with the path or URL to your video file
             controls=True,
             width="20%",
             height="150px",
