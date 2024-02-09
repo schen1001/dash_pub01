@@ -39,6 +39,7 @@ print(df00.head(3))
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+server =app.server
 #app = dash.Dash(__name__, suppress_callback_exceptions=True)
 
 
@@ -207,7 +208,7 @@ def update_columns(selected_columns):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False, port=8082)
+    app.run_server(debug=True, use_reloader=False)
 
 
 #https://www3.cs.stonybrook.edu/~mueller/teaching/cse332/Dash%20Intro.pdf
